@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../Project-Images/imagesForProject/Logo.PNG">
+
+    <script src="../Scripts/Script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+
+                        <a href="home.html"><img id="logoHD" src="../Project-Images/imagesForProject/Logo.PNG"
+                                alt="On Topic Shopping Logo" width="125px"></a>
+
+                        <input type="search" id="searchBar" list="Searches" placeholder="Ex:- Phones">
+                        <datalist id="Searches">
+                            <option value="Phones">
+                            <option value="Labtops">
+                            <option value="Cars">
+                            <option value="Choeses">
+
+                        </datalist>
+                    </div>
+                    <nav>
+
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="./About.html">About</a></li>
+                            <li><a href="./ContactUs.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+
+                    <img src="../Project-Images/imagesForProject/ShoppingCart.png" alt="Shopping Cart icon" width="40px"
+                        height="30px">
+                    <span id="Cart-Counter">0</span>
+                    <!-- <a href="#bottom"><img id="to-bottom-icon" src="../Project-Images/imagesForProject/toBottom.png"
+                            alt="Go to Bottom on click icon"></a> -->
+
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <h1>Welcome to our <br>Online Shopify </h1>
+                        <p> First marketplace to buy and sell
+                            Phones,<br> Labs, Accessories, Bags, Shoes, and Moore...
+                            .<br>We take trust and integrity to a whole new level.</p>
+                        <a class="btn">Order Now </a>
+                    </div>
+                    <div class="col-2">
+                        <img id="br-img" src="../Project-Images/slider-imgs/1.jpg" alt="selling online images">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Slider-img -->
+    <div class="Slider">
+        <div class="small-container">
+            <h2 class="title" id="search-product">Shopify Slider</h2>
+            <div class="row">
+
+                <div><button class="btn-slider" type="button" onclick="prevImg()">&#8249;</button></div>
+
+                <div class="slider-col-3" id="slider-col">
+
+                    <img src="../Project-Images/slider-imgs/1.jpg" alt="Slider Images Slide Show" id="img-slider">
+
+                </div>
+                <div><button class="btn-slider" type="button" onclick="nextImg()">&#8250;</button></div>
+            </div>
+        </div>
+
+        <!--- Categories ------>
+
+
+
+        <div class="categories">
+            <div class="small-container">
+                <h2 class="title" id="search-product">Our Products</h2>
+                <div class="row">
+                    <div class="col-3-filter"><button type="button" onclick="fetchPhones()" class="btn-filter"
+                            id="bags">Phones</button></div>
+                    <div class="col-3-filter"><button type="button" onclick="fetchLaptops()" class="btn-filter"
+                            id="accessories">Laptops</button></div>
+                    <div class="col-3-filter"><button type="button" onclick="fetchCars()" class="btn-filter"
+                            id="shoes">Cars</button></div>
+                    <div class="col-3-filter"><button type="button" onclick="fetchShoes()" class="btn-filter"
+                            id="shoes">Shoes</button></div>
+
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="../Project-Images/Products/All/product1.jpg " alt="Diamond Ring" class="Product-Img">
+                        <h4 class="Product-Name">iphone-12-pro-max</h4>
+                        <h2 class="Product-Rating"> &#9733; &#9733; &#9733; &#9733; &#9734;</h2>
+                        <p class="Product-Price">$1200</p>
+                        <a href="" class="btn-Cart" onclick="addToCart(event)">add to Cart &#10009;</a>
+                    </div>
+                    <div class="col-3">
+                        <img src="../Project-Images/Products/All/product2.jpg  " alt="Diamond Couple Ring"
+                            class="Product-Img">
+                        <h4 class="Product-Name">Huawei P40 Pro</h4>
+                        <h2 class="Product-Rating"> &#9733; &#9733; &#9733; &#9733; &#9734;</h2>
+                        <p class="Product-Price">$1000</p>
+                        <a href="" class="btn-Cart" onclick="addToCart(event)">add to Cart &#10009;</a>
+                    </div>
+                    <div class="col-3">
+                        <img src="../Project-Images/Products/All/product3.jpg  " alt="Classic brown shoe"
+                            class="Product-Img">
+                        <h4 class="Product-Name">Apple Mackbook</h4>
+                        <h2 class="Product-Rating"> &#9733; &#9733; &#9733; &#9733; &#9734;</h2>
+                        <p class="Product-Price">$1500</p>
+                        <a href="" class="btn-Cart" onclick="addToCart(event)">add to Cart &#10009;</a>
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="../Project-Images/Products/All/product4.jpg  " alt="Colorful Nike Sneakers"
+                            class="Product-Img">
+                        <h4 class="Product-Name">White Choes</h4>
+                        <h2 class="Product-Rating"> &#9733; &#9733; &#9733; &#9733; &#9734;</h2>
+                        <p class="Product-Price">$40</p>
+                        <a href="" class="btn-Cart" onclick="addToCart(event)">add to Cart &#10009;</a>
+                    </div>
+                    <div class="col-3">
+                        <img src="../Project-Images/Products/All/product5.jpg  " alt="pearl Ear ring"
+                            class="Product-Img">
+                        <h4 class="Product-Name">Blue Choes</h4>
+                        <h2 class="Product-Rating"> &#9733; &#9733; &#9733; &#9733; &#9734;</h2>
+                        <p class="Product-Price">$45</p>
+                        <a href="" class="btn-Cart" onclick="addToCart(event)">add to Cart &#10009;</a>
+                    </div>
+                    <div class="col-3">
+                        <img src="../Project-Images/Products/All/product6.jpg  " alt="Cleopatra-style Necklace"
+                            class="Product-Img">
+                        <h4 class="Product-Name">Orange Choes</h4>
+                        <h2 class="Product-Rating"> &#9733; &#9733; &#9733; &#9733; &#9734;</h2>
+                        <p class="Product-Price"><del>$50</del>$30</p>
+                        <a href="" class="btn-Cart" onclick="addToCart(event)">add to Cart &#10009;</a>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="../Project-Images/Products/All/product7.jpg  " alt="Golden Earring"
+                                class="Product-Img">
+                            <h4 class="Product-Name">Bunch of Bags</h4>
+                            <h2 class="Product-Rating"> &#9733; &#9733; &#9733; &#9733; &#9734;</h2>
+                            <p class="Product-Price"><del>$90</del>$50</p>
+                            <a href="" class="btn-Cart" onclick="addToCart(event)">add to Cart &#10009;</a>
+                        </div>
+                        <div class="col-3">
+                            <img src="../Project-Images/Products/All/product8.jpg  " alt="Louis Vuitton Dark-Pink Bag"
+                                class="Product-Img">
+                            <h4 class="Product-Name">Makeup</h4>
+                            <h2 class="Product-Rating"> &#9733; &#9733; &#9733; &#9733; &#9734;</h2>
+                            <p class="Product-Price"><del>$150</del>$80</p>
+                            <a href="" class="btn-Cart" onclick="addToCart(event)">add to Cart &#10009;</a>
+                        </div>
+                        <div class="col-3">
+                            <img src="../Project-Images/Products/All/product9.jpg  " alt="Light-Pink Bag"
+                                class="Product-Img">
+                            <h4 class="Product-Name">car</h4>
+                            <h2 class="Product-Rating"> &#9733; &#9733; &#9733; &#9733; &#9734;</h2>
+
+                            <p class="Product-Price">$5500</p>
+
+                            <a href="" class="btn-Cart" onclick="addToCart(event)">add to Cart &#10009;</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Offer-->
+            <div class="offer">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-2">
+                            <img id="tesla-car-offer" src="../Project-Images/Products/Cars/teslaCarOffer.jpg"
+                                alt="Tesla car " class="offer-img">
+                        </div>
+                        <div class="col-2">
+                            <b>Exclusive on Shopify</b>
+                            <h1>Tesla Roadster</h1>
+                            <small>The Most Capable 100% Electric Car, No Charge Delays, No Range Anxiety, No
+                                Limitations. Invest In The Future of
+                                Work Today.<br>
+                                <a class="btn-Cart">Buy Now</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ourTeam -->
+        <h2 class="title">Our Team <br>
+            <small>
+                <h4>Our people are very united for your success</h4>
+            </small>
+        </h2>
+
+        <div class="ourTeam">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-4-reviews">
+
+                        <h2>CHIEF EXECUTIVE</h2>
+
+                        <img class="teamPic" src="../Project-Images/teamImgs/1.jpg" alt="" height="130px">
+                        <h3>Mohamed Elsayed</h3>
+
+                        <ul class="social">
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-linkedin"></a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-4-reviews">
+
+                        <h3><strong>CHIEF EXECUTIVE OFFICER</strong> </h3>
+
+                        <img class="teamPic" src="../Project-Images/teamImgs/1.jpg" alt="" height="130px">
+                        <h3>Fathy Ahmed</h3>
+
+                        <ul class="social">
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-linkedin"></a></li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="col-4-reviews">
+
+                        <h2>DIRECTOR</h2>
+
+                        <img class="teamPic" src="../Project-Images/teamImgs/1.jpg" alt="" height="130px">
+                        <h3>Haitham Elsaid</h3>
+
+                        <ul class="social">
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-linkedin"></a></li>
+                        </ul>
+
+                    </div>
+
+                    <br>
+
+                    <div class="col-4-reviews">
+
+                        <h2>DEVELOPER</h2>
+
+                        <img class="teamPic" src="../Project-Images/teamImgs/1.jpg" alt="" height="130px">
+                        <h3>Amr Magdy</h3>
+
+                        <ul class="social">
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-linkedin"></a></li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="col-4-reviews">
+
+                        <h2>DEVELOPER</h2>
+
+                        <img class="teamPic" src="../Project-Images/teamImgs/1.jpg" alt="" height="130px">
+                        <h3>Ibrahim Sharara</h3>
+
+                        <ul class="social">
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-linkedin"></a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col-4-reviews">
+
+                        <h2>DESIGNER</h2>
+
+                        <img class="teamPic" src="../Project-Images/teamImgs/1.jpg" alt="" height="130px">
+                        <h3>Hossam Atef</h3>
+
+                        <ul class="social">
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-linkedin"></a></li>
+                        </ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!---Parteners-->
+        <h2 class="title">Our Parteners<br>
+        </h2>
+        <div class="parteners">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="../Project-Images/Parteners/1.png" alt="xiaomi Logo">
+                    </div>
+                    <div class="col-5">
+                        <img src="../Project-Images/Parteners/2.png" alt="IBM logo">
+                    </div>
+                    <div class="col-5">
+                        <img src="../Project-Images/Parteners/3.png" alt="Lacoste logo">
+                    </div>
+                    <div class="col-5">
+                        <img src="../Project-Images/Parteners/4.png" alt="Tesla logo">
+                    </div>
+                    <div class="col-5">
+                        <img src="../Project-Images/Parteners/5.png" alt="Apple logo">
+                    </div>
+                    <div class="col-5">
+                        <img src="../Project-Images/Parteners/6.png" alt="Samsung logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="otherlinks">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-2" id="to-top-icon-container">
+                        <a href="#top">
+                            <img src="../Project-Images/imagesForProject/toTop.png" alt="to-top icon" id="to-top-icon">
+                        </a>
+                    </div>
+                    <div class="col-2"></div>
+
+                </div>
+            </div>
+        </div>
+
+        <footer>
+
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col-1">
+                            <h3>Download Our App</h3>
+                            <div class="app-logo">
+                                <img src="../Project-Images/Footer imgs/android.png"
+                                    alt="Image for Application download for android">
+                                <img src="../Project-Images/Footer imgs/ios.png"
+                                    alt="Image for Application download for IOS">
+                            </div>
+                        </div>
+                        <div class="footer-col-2">
+                            <img src="../Project-Images/imagesForProject/Logo.PNG" alt="Shopify logo" id="ft-logo">
+                            <p>Our Goal Is To Make Online Shopping Easy To Our Clients, and Save A Lot Of Effort, and
+                                Money .</p>
+                        </div>
+
+                        <div class="footer-col-3">
+                            <h3>Follow Us</h3>
+                            <ul class="social">
+                                <li><a href="#" class="fa fa-facebook"></a></li>
+                                <li><a href="#" class="fa fa-twitter"></a></li>
+                                <li><a href="#" class="fa fa-linkedin"></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="cpy-right" id="bottom">All Copyright &copy; 2022 - reserved</p>
+
+                </div>
+            </div>
+        </footer>
+
+</body>
+
+</html>

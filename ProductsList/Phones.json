@@ -1,0 +1,65 @@
+[
+    {
+        "name": "samsung s22 ultra",
+        "imgSrc": "../Project-Images/Products/Phones/phone1.jpg",
+        "imgAlt": "samsung s22 ultra img",
+        "price": "$1400",
+        "rating": 4
+    },
+    {
+        "name": "Xiaomi Redmi K50 Gaming 256GB 12GB ",
+        "imgSrc": "../Project-Images/Products/Phones/phone2.jpg",
+        "imgAlt": "Xiaomi Redmi K50 Gaming 256GB 12GB img",
+        "price": "<del>$700</del>$500",
+        "rating": 5
+    },
+    {
+        "name": "Xiaomi Redmi Note 10 Pro",
+        "imgSrc": "../Project-Images/Products/Phones/phone3.jpg",
+        "imgAlt": "Xiaomi Redmi Note 10 Pro img",
+        "price": "$850",
+        "rating": 4
+    },
+    {
+        "name": "iphone-12-pro-max",
+        "imgSrc": "../Project-Images/Products/Phones/phone4.jpg",
+        "imgAlt": "iphone-12-pro-max img",
+        "price": "$1200",
+        "rating": 4.5
+    },
+    {
+        "name": "Oppo Reno 7 5G",
+        "imgSrc": "../Project-Images/Products/Phones/phone5.jpg",
+        "imgAlt": "Oppo Reno 7 5G img",
+        "price": "$180",
+        "rating": 4
+    },
+    {
+        "name": "Realme XT",
+        "imgSrc": "../Project-Images/Products/Phones/phone6.jpg",
+        "imgAlt": "Realme XT img",
+        "price": "$139",
+        "rating": 3.5
+    },
+    {
+        "name": "Huawei P40 Pro",
+        "imgSrc": "../Project-Images/Products/Phones/phone7.jpg",
+        "imgAlt": "Huawei P40 Pro img",
+        "price": "$200",
+        "rating": 4
+    },
+    {
+        "name": "Nokia 3.4 mobile",
+        "imgSrc": "../Project-Images/Products/Phones/phone8.png",
+        "imgAlt": "Nokia 3.4 mobile img",
+        "price": "<del>$120</del>$90",
+        "rating": 3
+    },
+    {
+        "name": "Google Pixel 6 Pro",
+        "imgSrc": "../Project-Images/Products/Phones/phone9.jpg",
+        "imgAlt": "Google Pixel 6 Pro img",
+        "price": "$135",
+        "rating": 1
+    }
+]

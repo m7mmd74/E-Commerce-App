@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Nike Air Jordan",
+        "imgSrc": "../Project-Images/Products/Shoes/shoe1.jpg",
+        "imgAlt": "Nike Air Jordan img",
+        "price": "$100",
+        "rating": 5
+    },
+    {
+        "name": "Blue Choes",
+        "imgSrc": "../Project-Images/Products/Shoes/shoe2.jpg",
+        "imgAlt": "Blue Choes img",
+        "price": "$120",
+        "rating": 3
+    },
+    {
+        "name": "New Nike Shoes",
+        "imgSrc": "../Project-Images/Products/Shoes/shoe3.jpg",
+        "imgAlt": "New Nike Shoes img",
+        "price": "$200",
+        "rating": 4.5
+    },
+    {
+        "name": "Skechers Mens Go Run",
+        "imgSrc": "../Project-Images/Products/Shoes/shoe4.jpg",
+        "imgAlt": "Skechers Mens Go Run img",
+        "price": "$300",
+        "rating": 4
+    },
+    {
+        "name": "Classical shoes black",
+        "imgSrc": "../Project-Images/Products/Shoes/shoe5.jpg",
+        "imgAlt": "Classical shoes black img",
+        "price": "$100,00",
+        "rating": 3
+    },
+    {
+        "name": "Gradient Silver Dark High Heels",
+        "imgSrc": "../Project-Images/Products/Shoes/shoe6.png",
+        "imgAlt": "Gradient Silver Dark High Heels picture",
+        "price": "$150,00",
+        "rating": 4
+    },
+    {
+        "name": "Classical shoes Brown",
+        "imgSrc": "../Project-Images/Products/Shoes/shoe7.jpg",
+        "imgAlt": "Classical shoes Brown img",
+        "price": "$45,00",
+        "rating": 2
+    },
+    {
+        "name": "Trip Sand Sneakers",
+        "imgSrc": "../Project-Images/Products/Shoes/shoe8.png",
+        "imgAlt": "Trip Sand Sneakers picture",
+        "price": "$85,50",
+        "rating": 3
+    },
+    {
+        "name": "Military shop ",
+        "imgSrc": "../Project-Images/Products/Shoes/shoe9.jpg",
+        "imgAlt": "Military shop img",
+        "price": "$50,50",
+        "rating": 2
+    }
+]

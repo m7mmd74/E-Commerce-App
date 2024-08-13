@@ -1,0 +1,65 @@
+[
+    {
+        "name": "lamborghini Car",
+        "imgSrc": "../Project-Images/Products/Cars/car1.webp",
+        "imgAlt": "lamborghini img",
+        "price": "$10000",
+        "rating": 5
+    },
+    {
+        "name": "ferrari Car",
+        "imgSrc": "../Project-Images/Products/Cars/2.jpg",
+        "imgAlt": "ferrari img",
+        "price": "$10000",
+        "rating": 4
+    },
+    {
+        "name": " BMW Car",
+        "imgSrc": "../Project-Images/Products/Cars/3.jpg",
+        "imgAlt": "BMW Car img",
+        "price": "$15000",
+        "rating": 4
+    },
+    {
+        "name": " Mercedes Car",
+        "imgSrc": "../Project-Images/Products/Cars/4.jpg",
+        "imgAlt": "Mercedes Car img",
+        "price": "$9000",
+        "rating": 3.5
+    },
+    {
+        "name": " audi Car",
+        "imgSrc": "../Project-Images/Products/Cars/5.jpg",
+        "imgAlt": "audi Car img",
+        "price": "$8000",
+        "rating": 2
+    },
+    {
+        "name": " Rolls Royce Car",
+        "imgSrc": "../Project-Images/Products/Cars/6.jpg",
+        "imgAlt": "Rolls Royce Car img",
+        "price": "$8000",
+        "rating": 2
+    },
+    {
+        "name": " Rolls Royce Car",
+        "imgSrc": "../Project-Images/Products/Cars/6.jpg",
+        "imgAlt": "Rolls Royce Car img",
+        "price": "$8000",
+        "rating": 2
+    },
+    {
+        "name": " Gray Mercedez Benz Amg Car",
+        "imgSrc": "../Project-Images/Products/Cars/7.jpg",
+        "imgAlt": "Gray Mercedez Benz Amg Car img",
+        "price": "$11000",
+        "rating": 3
+    },
+    {
+        "name": " Orange Dodge Sedan on Pavement Car",
+        "imgSrc": "../Project-Images/Products/Cars/9.jpg",
+        "imgAlt": "Orange Dodge Sedan on Pavement img",
+        "price": "$7000",
+        "rating": 4.5
+    }
+]

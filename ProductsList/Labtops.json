@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Dell Vostro 3510 Laptop 15.6 FHD ",
+        "imgSrc": "../Project-Images/Products/Labs/lab1.jpg",
+        "imgAlt": "Dell Vostro 3510 Laptop img",
+        "price": "$850",
+        "rating": 4
+    },
+    {
+        "name": "Razer Blade 15 Base 15.6 4K OLED",
+        "imgSrc": "../Project-Images/Products/Labs/lab2.jpg",
+        "imgAlt": "Razer Blade 15 img",
+        "price": "$900",
+        "rating": 4.5
+    },
+    {
+        "name": "Dell Inspiron 15 7567 Gaming - Netbook",
+        "imgSrc": "../Project-Images/Products/Labs/lab3.png",
+        "imgAlt": "Dell Inspiron 15 7567 Gaming img",
+        "price": "$150",
+        "rating": 3.5
+    },
+    {
+        "name": "HP Pavilion Gaming 15",
+        "imgSrc": "../Project-Images/Products/Labs/lab4.webp",
+        "imgAlt": "HP Pavilion Gaming 15 img",
+        "price": "$180",
+        "rating": 3
+    },
+    {
+        "name": "MackBook Pro",
+        "imgSrc": "../Project-Images/Products/Labs/lab5.jpg",
+        "imgAlt": "MackBook Pro img",
+        "price": "$400",
+        "rating": 5
+    },
+    {
+        "name": "HP Omen 16 Gaming Laptop",
+        "imgSrc": "../Project-Images/Products/Labs/lab6.jpg",
+        "imgAlt": "HP Omen 16 Gaming Laptop img",
+        "price": "$200",
+        "rating": 2.5
+    },
+    {
+        "name": "MacBook Air (Retina, 13-inch, 2018)",
+        "imgSrc": "../Project-Images/Products/Labs/lab7.jpg",
+        "imgAlt": "MacBook Air img",
+        "price": "$145",
+        "rating": 5
+    },
+    {
+        "name": " MacBook Air M2 512GB SSD Storage",
+        "imgSrc": "../Project-Images/Products/Labs/lab8.jpg",
+        "imgAlt": "MacBook Air M2 img",
+        "price": "$2000",
+        "rating": 5
+    },
+    {
+        "name": "Lenovo Launches Yoga 920 ",
+        "imgSrc": "../Project-Images/Products/Labs/lab9.jpg",
+        "imgAlt": "Lenovo Launches Yoga 920",
+        "price": "$1000",
+        "rating": 3
+    }
+]
